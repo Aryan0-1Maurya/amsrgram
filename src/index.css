@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Urbanist", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: white;
+}
+
+/* Backgrund Modal */
+
+.bg-modal {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Home Grid Container */
+/* .post:nth-child(4n + 4) {
+  background-color: #525252;
+  height: 10rem;
+} */
+
+.post:nth-child(4n + 2),
+.post:nth-child(4n + 3) {
+  height: 30rem;
+  margin-top: -13rem;
+}
+
+.post:nth-child(even) {
+  margin-top: 0;
+}
+
+.post:nth-child(4n + 2) .post-picture,
+.post:nth-child(4n + 3) .post-picture {
+  height: 100%;
+  /* margin-top: -10rem; */
+}
+
+/* Custom Scrollbar */
+
+/* Width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(50, 50, 50);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(100, 100, 100);
+}
