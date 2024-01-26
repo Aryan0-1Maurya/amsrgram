@@ -10,7 +10,7 @@ const Post = lazy(() => import("./routes/Post"));
 const Signin = lazy(() => import("./routes/Signin"));
 const Signup = lazy(() => import("./routes/Signup"));
 const UserProfile = lazy(() => import("./routes/UserProfile"));
-import Error from "./components/Error";
+//import Error from "./components/Error";
 /*  Loading Animation Component  */
 // import AnimationOnLoad from "./components/AnimationOnLoad";
 
@@ -50,7 +50,7 @@ function App() {
         <AnimatePresence initial={true}>
           {/* All Routes */}
           <Routes location={location} key={location.pathName}>
-            <Route path="/*" element={<Error/>} />
+           // <Route path="/*" element={<Error/>} />
             {/* Home */}
             <Route
               path="/"
