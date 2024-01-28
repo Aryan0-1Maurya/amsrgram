@@ -14,7 +14,7 @@ Experience AmsrGram now with our live demo! If you prefer not to use your person
 
 
 
-[Explore the Demo](https://amsrgram.vercel.app "See the demo")
+[Explore the Demo](https://amsrgram.netlify.app/ "See the demo")
 
 ## Case Study
 
